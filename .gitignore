@@ -1,0 +1,54 @@
+# Source novels (copyright)
+Original novel/
+
+# Fanworks (copyright of various authors)
+同人文/
+
+# Generated artefacts and large derivatives (distributed via Releases)
+processed/
+vectordb/
+models/
+output/
+
+# Local Colab download cache
+lora/data/
+lora/checkpoints/
+
+# Local trash bucket (for files removed during cleanup)
+_trash/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Backups
+*.bak_*
+*.backup
+*~
+
+# Compressed archives
+*.zip
+*.tar.gz
+*.7z
+
+# Secrets
+.env
+.env.local
+*.key
+secrets/
+
+# Claude Code workspace
+.claude/settings.local.json

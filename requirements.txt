@@ -1,0 +1,22 @@
+# Tunshi Star Fanfic LLM dependencies
+# Tested with Python 3.11
+
+# Core ML
+torch>=2.0
+transformers==4.46.3
+peft==0.13.2
+accelerate==1.0.1
+datasets==3.1.0
+tokenizers==0.20.3
+
+# RAG
+sentence-transformers>=3.0
+chromadb>=0.5
+
+# Utilities
+numpy>=1.24
+tqdm>=4.65
+
+# Optional: inference acceleration (uncomment if needed)
+# bitsandbytes>=0.45  # for 4-bit QLoRA on smaller GPUs (may have CUDA compat issues)
+# llama-cpp-python    # for ollama-style local inference
